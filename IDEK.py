@@ -61,4 +61,7 @@ else:
         if Location == "V" or Location == "v":
             print("Welcome to the village there is nothing here")
         else:
-            print("Fuck OFF")
+            print("Well Just Stay Here Then")
+            time.sleep(1)
+            print("You Die Alone")
+            quit()
