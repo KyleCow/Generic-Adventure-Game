@@ -50,18 +50,32 @@ time.sleep(1)
 print("Keem: Hello, Im in your head now")
 time.sleep(0.6)
 print("LOL")
-print("Where do you want to go to?")
+print("Keem: Where do you want to go to?")
 Location=input("Type K for kingdom, Type H for hills or Type V for Village")
 if Location == "K" or Location == "k":
     print("Welcome To The Kingdom Where None Of Your Dreams Will Come True")
+    SeeTheKing=input("Do You want to meet the king?")
+    if SeeTheKing == "Yes" or SeeTheKing == "Y" or SeeTheKing == "yes" or SeeTheKing == "y" or SeeTheKing == "yEs" or SeeTheKing == "YeS":
+        print("You Got Killed Trying To Get Into The Castle")
+        quit()
+    else:
+        print("You Were Kicked Out Of The Kingdom")
 else:
     if Location == "H" or Location == "h":
         print("Lol u r alone")
     else:
         if Location == "V" or Location == "v":
             print("Welcome to the village there is nothing here")
+            talkToLocals=input("Do you want to speak to the locals")
+            if talkToLocals == "Yes" or talkToLocals == "Y" or talkToLocals == "yes" or talkToLocals == "y" or talkToLocals == "yEs" or talkToLocals == "YeS":
+                print("They Dislike You And Kick You Out")
+            else:
+                print("You Die Of Carbon Monoxide Poisoning")
+                quit()
         else:
-            print("Well Just Stay Here Then")
+            print("Keem: Well Just stay here then")
             time.sleep(1)
-            print("You Die Alone")
+            print("You die alone")
             quit()
+time.sleep(1)
+print("What are you going to do now")
