@@ -22,8 +22,8 @@ time.sleep(1)
 name=input("What is your name? ")
 print ("SUP "+name)
 time.sleep(2)
-command=input("Are you aware of the mythical the scarce? ")
-if command == "n" or "N" or "No" or "NO" or "no":
+command=input("Are you aware of the mythical scarce? ")
+if command == "n" or command == "N" or command == "No" or command == "NO" or command == "no":
     print("Once apon a time")
     time.sleep(2)
     print("a youtube channel")
@@ -32,8 +32,14 @@ if command == "n" or "N" or "No" or "NO" or "no":
     time.sleep(2)
     print("was created")
     time.sleep(1)
-    print("You Kill Yourself Out Of Bordom")
+    print("You Slip Yourself Back Into The Noose Out Of Bordom")
     time.sleep(1)
     quit()
 else:
     print("Cool so you already know well thats great and all, but i really wanted to explain it to you but fiiine just leave")
+leave=input("Press L to leave ")
+if leave == "L" or leave == "l":
+    print("You Leave")
+else:
+    print("You Die Alone")
+    quit()
