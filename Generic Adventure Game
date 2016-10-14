@@ -119,47 +119,47 @@ if dig1 == "D" or dig1 == "d":
 else:
     print("You're so useless")
     quit()
-if dig2 == "D" or dig == "d":
+if dig2 == "D" or dig2 == "d":
     dig3=input("Press D to dig more more more ")
 else:
     print("You're so useless")
     quit()
-if dig3 == "D" or dig == "d":
+if dig3 == "D" or dig3 == "d":
     dig4=input("Press D to dig more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig4 == "D" or dig == "d":
+if dig4 == "D" or dig4 == "d":
     dig5=input("Press D to dig more more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig5 == "D" or dig == "d":
+if dig5 == "D" or dig5 == "d":
     dig6=input("Press D to dig more more more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig6 == "D" or dig == "d":
+if dig6 == "D" or dig6 == "d":
     dig7=input("Press D to dig more more more more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig7 == "D" or dig == "d":
+if dig7 == "D" or dig7 == "d":
     dig8=input("Press D to dig more more more more more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig8 == "D" or dig == "d":    
+if dig8 == "D" or dig8 == "d":    
     dig9=input("Press D to dig more more more more more more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig9 == "D" or dig == "d": 
+if dig9 == "D" or dig9 == "d": 
     dig10=input("Press D to dig more more more more more more more more more more ")
 else:
     print("You're so useless")
     quit()
-if dig10 == "D" or dig == "d": 
+if dig10 == "D" or dig10 == "d": 
     print("You've made no indent ")
 else:
     print("You're so useless")
@@ -167,15 +167,15 @@ else:
 
 print("Press G to go to the gym")
 time.sleep(0.2)
-goToGym=input("you fucking weak cunt ")
+goToGym=input("you're so weak ")
 if goToGym == "G" or goToGym == "g":
     count = 1
 
     if count < 100:
-        print("Reps no.") , count
+        print("Step no.") , count
     
     while count < 100:
-        print("Reps no." , count)
+        print("Step no." , count)
         time.sleep(0.1)
         count += 1
 else:
@@ -185,3 +185,30 @@ print("well done")
 time.sleep(0.4)
 print("ᕙ༼ຈل͜ຈ༽ᕗ")
 time.sleep(0.4)
+print("suddenly dragons")
+time.sleep(0.3)
+dragon=input("Press F to fight, R to run or S to shit yourself")
+if dragon == "f" or dragon == "F":
+    print("Choose Your Weapon")
+    weapon=input("Press S for sword or Press B for bow")
+    if weapon == "s" or weapon == "S":
+        print("The dragon meltes your sword")
+        quit()
+    else:
+        if weapon == "B" or weapon == "b":
+            print("You shot it, well done")
+            time.sleep(0.2)
+            print("You blinded it")
+            time.sleep(0.2)
+            print("Do you want to run away or shoot again")
+            bow=input("Press R to run away or press S to shoot again")
+            if bow == "r" or bow == "R":
+                print("You hit again this time slaying the beast")
+            else:
+                print("You were to slow and got killed")
+                quit()
+    if weapon != "B" or weapon != "b" or weapon != "s" or weapon != "S":
+        print("You  didn't make the decision and died a slow painfull death")
+        quit()
+if dragon == "S" or dragon == "s":
+    print("Your shit stank so much that the dragon flew away")
