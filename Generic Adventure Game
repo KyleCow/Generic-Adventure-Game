@@ -176,9 +176,12 @@ if goToGym == "G" or goToGym == "g":
     
     while count < 100:
         print("Reps no." , count)
-        time.sleep(0.5)
+        time.sleep(0.1)
         count += 1
 else:
     print("You die")
     quit()
 print("well done")
+time.sleep(0.4)
+print("ᕙ༼ຈل͜ຈ༽ᕗ")
+time.sleep(0.4)
