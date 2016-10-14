@@ -4,6 +4,7 @@
 #~~~To Back This Statement Up~~#
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 import time
+import math
 print(" _____")
 print("|  __ \                    (_)     ")
 print("| |  \/ ___ _ __   ___ _ __ _  ___  ")
@@ -166,5 +167,18 @@ else:
 
 print("Press G to go to the gym")
 time.sleep(0.2)
-print("you fucking weak cunt")
+goToGym=input("you fucking weak cunt ")
+if goToGym == "G" or goToGym == "g":
+    count = 1
 
+    if count < 100:
+        print("Reps no.") , count
+    
+    while count < 100:
+        print("Reps no." , count)
+        time.sleep(0.5)
+        count += 1
+else:
+    print("You die")
+    quit()
+print("well done")
