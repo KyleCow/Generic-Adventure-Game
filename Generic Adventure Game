@@ -187,10 +187,10 @@ print("ᕙ༼ຈل͜ຈ༽ᕗ")
 time.sleep(0.4)
 print("suddenly dragons")
 time.sleep(0.3)
-dragon=input("Press F to fight, R to run or S to shit yourself")
+dragon=input("Press F to fight, R to run or S to shit yourself ")
 if dragon == "f" or dragon == "F":
     print("Choose Your Weapon")
-    weapon=input("Press S for sword or Press B for bow")
+    weapon=input("Press S for sword or Press B for bow ")
     if weapon == "s" or weapon == "S":
         print("The dragon meltes your sword")
         quit()
@@ -201,7 +201,7 @@ if dragon == "f" or dragon == "F":
             print("You blinded it")
             time.sleep(0.2)
             print("Do you want to run away or shoot again")
-            bow=input("Press R to run away or press S to shoot again")
+            bow=input("Press R to run away or press S to shoot again ")
             if bow == "r" or bow == "R":
                 print("You hit again this time slaying the beast")
             else:
@@ -212,3 +212,16 @@ if dragon == "f" or dragon == "F":
         quit()
 if dragon == "S" or dragon == "s":
     print("Your shit stank so much that the dragon flew away")
+if dragon == "R" or dragon == "r":
+    print("You come across a split in the road")
+    time.sleep(0.2)
+    print("One way leads to another dragons lair the other to freedom")
+    splitPath=input("Press L to go left or R to go right")
+    if splitPath == "L" or splitPath == "l":
+        print("You find the other dragons lair")
+        time.sleep(5)
+        print("The 2 dragons fight to the death whilst you escape")
+    else:
+        print("The dragon catches up with you")
+        quit()
+print("Keem: Wow that was a close one")
