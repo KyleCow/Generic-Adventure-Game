@@ -185,7 +185,7 @@ print("well done")
 time.sleep(0.4)
 print("ᕙ༼ຈل͜ຈ༽ᕗ")
 time.sleep(0.4)
-print("suddenly dragons")
+print("suddenly a dragon")
 time.sleep(0.3)
 dragon=input("Press F to fight, R to run or S to shit yourself ")
 if dragon == "f" or dragon == "F":
@@ -225,3 +225,13 @@ if dragon == "R" or dragon == "r":
         print("The dragon catches up with you")
         quit()
 print("Keem: Wow that was a close one")
+time.stop(0.4)
+print("go to the kingdom and warn the king")
+kingdom=input("Quick press K")
+if kingdom == "K" or kingdom == "k":
+    print("You made it")
+else:
+    print("You were killed by a mole")
+    time.stop(1)
+    print("IDK either")
+    quit()
