@@ -235,3 +235,28 @@ else:
     time.stop(1)
     print("IDK either")
     quit()
+print("You get to the palace and get stopped by a guard")
+guard=input("Press K to kill him or T to talk him into letting you die ")
+if guard == "K" or guard == "k":
+    print("Why did you do that")
+    time.sleep(3)
+    print("It worked but")
+else:
+    if guard == "T" or guard == "t":
+        print("Why did you call him a retard")
+        time.stop(0.3)
+        quit()
+    else:
+        print("He punched you for being a wierdo")
+        time.stop(0.2)
+        quit()
+print("you rush in")
+time.sleep(0.4)
+print("you cant talk")
+time.sleep(1)
+print("    ________           __    __               __  ")
+print("   / ____/ /___ ______/ /_  / /_  ____ ______/ /__")
+print("  / /_  / / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/")
+print(" / __/ / / /_/ (__  ) / / / /_/ / /_/ / /__/ ,< ")
+print("/_/   /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  ")
+
