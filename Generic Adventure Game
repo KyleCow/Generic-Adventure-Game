@@ -5,6 +5,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 import time
 import math
+import random
 print(" _____")
 print("|  __ \                    (_)     ")
 print("| |  \/ ___ _ __   ___ _ __ _  ___  ")
@@ -243,7 +244,7 @@ if guard == "K" or guard == "k":
     print("It worked but")
 else:
     if guard == "T" or guard == "t":
-        print("Why did you call him a retard")
+        print("He cant understand you")
         time.sleep(0.3)
         quit()
     else:
@@ -262,13 +263,13 @@ print("/_/   /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  ")
 time.sleep(0.8)
 print("Mum: Hello "+name )
 print("How are you")
-time.sleep(0.2)
+time.sleep(0.8)
 print("Dad: You little shit")
-time.sleep(0.2)
+time.sleep(0.5)
 print("Mum: What did he do")
-time.sleep(0.3)
+time.sleep(0.6) 
 print("Dad: he knows what he said")
-time.sleep(0.3)
+time.sleep(0.9)
 print("so he wont say anything agian")
 time.sleep(0.5)
 print("       __ ________           __    __               __  ")
@@ -276,3 +277,87 @@ print("     _/_/  ____/ /___ ______/ /_  / /_  ____ ______/ /__")
 print("   _/_/ / /_  / / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/")
 print(" _/_/  / __/ / / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   ")
 print("/_/   /_/   /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  ")
+time.sleep(0.5)
+print("Keem: what will you do now?")
+getAttention=input("Press S to stomp ")
+if getAttention == "S" or getAttention == "s":
+    print("Everyone looks at you")
+else:
+    print("You get kicked out for being a wierdo")
+    quit()
+writeOnSign=input("Write something down so they know what you're trying to say ")
+print("King: what does that mean ")
+time.sleep(1)
+print("You can't write")
+time.sleep(0.4)
+print("King: We must get our best gobbeldygook translator on this now")
+time.sleep(0.7)
+print("Gobbeldygook Translator: It sais 'There's a motherfucking dragon why the fuck are you guys not doing anything'")
+time.sleep(1)
+print("King: You're fired for being so fucking vulgar")
+time.sleep(1)
+print("Gobbeldygook Translator: Im sorry sir")
+time.sleep(1)
+print("King: So what do we do")
+time.sleep(1)
+print("you know what here's 1000 gold")
+time.sleep(1)
+print("go arm yourself")
+gold=1000
+weapon1=input("If you want to buy a dagger[100g] press D or if you want to buy a sword[300g] press S ")
+if weapon1 == "D" or weapon1 == "d":
+    gold=gold - 100
+else:
+    if weapon1 == "S" or weapon1 == "s":
+        gold=gold - 300
+    else:
+        print("so you dont want anything")
+armor=input("Do you want to buy armor[500]")
+if armor == "Y" or armor == "y" or armor == "yes" or armor == "YES" or armor == "YeS" or armor == "yEs":
+    gold=gold - 500
+else
+    print("so you dont want anything")
+time.sleep(1)
+print("You have "+gold+" left")
+time.sleep(1)
+print("Go kill stuff")
+time.sleep(1)
+print("you leave")
+time.sleep(1)
+print("you get attacked by a criminal")
+if armor == "Y" or armor == "y" or armor == "yes" or armor == "YES" or armor == "YeS" or armor == "yEs":
+    if weapon1 == "s" or weapon == "S":
+        print("you have a 1/10 chance of dying")
+        time.sleep(2)
+        for x in range(0, 2):
+            random_number = random.randint(0, 10)
+            if random_number == 2:
+                print("You got killed")
+                quit()
+            else:
+                if weapon1 == "d" or weapon1 == "D":
+                    print("you have a 3/10 chance of dying")
+                    time.sleep(2)
+                     for x in range(0, 2):
+                        random_number = random.randint(0, 10)
+                        if random_number == 2 or random_number == 1 or random_number == 0:
+                            print("U got killed")
+                            quit()
+else:
+    if weapon1 == "s" or weapon1 == "S":
+        print("you have a 4/10 chance of dying")
+        time.sleep(2)
+        for x in range(0, 2):
+            random_number = random.randint(0, 10)
+            if random_number == 0 or random_number == 1 or random_number == 3 or random_number == 4:
+                print("You got killed")
+                quit()
+            else
+                if weapon1 == "d" or weapon1 == "D":
+                    print("You have a 5/10 chance of dying")
+                    time.sleep(2)
+                    for x in range(0, 2):
+                        random_number = random.randint(0, 10)
+                        if random_number == 0 or random_number == 1 or random_number == 3 or random_number == 4 or random_number == 5:
+                                print("You got killed")
+                                quit()
