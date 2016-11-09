@@ -381,3 +381,127 @@ print("you go exploring")
 time.sleep(1)
 print("you come across a cave")
 time.sleep(1)
+cave=input("do you want to go in? ")
+if cave == "y" or cave == "Y" or cave == "yes" or cave == "YES" or cave == "yEs" or cave == "YeS":
+    print("find a wall and a hole in the cave")
+    climb=input("climb the wall[press C] or go down[press D] ")
+    if climb == "C" or climb == "c":
+        print("you climbed a wall ")
+        print("but fell and died")
+    else:
+        if climb == "d" or climb == "D":
+            print("you fell down and you come across a snake")
+            giantSnake=input("press F to fight or press r to run ")
+            if giantSnake == "F" or giantSnake == "f":
+                if armor == "Y" or armor == "y" or armor == "yes" or armor == "YES" or armor == "YeS" or armor == "yEs":
+                    if weapon1 == "s" or weapon1 == "S":
+                        print("you have a 1/10 chance of dying")
+                        time.sleep(3)
+                        for x in range(0, 2):
+                            random_number = random.randint(0, 10)
+                            if random_number == 2:
+                                print("you got unlucky")
+                                time.sleep(1)
+                                quit()
+                        else:
+                            print("you survived ")
+                    else:
+                        if weapon1 == "D" or weapon1 == "d":
+                            print("you have a 2/10 chance of dying")
+                            time.sleep(3)
+                            for x in range(0, 2):
+                                random_number = random.randint(0, 10)
+                                if random_number == 2 or random_number == 1:
+                                    print("shoulda bought a sword")
+                                    time.sleep(1)
+                                    quit()
+                            else:
+                                print("you survived")
+                                time.sleep(3)
+                                quit()
+                        else:
+                            print("you have a 4/10 chance of dying")
+                            time.sleep(3)
+                            for x in range(0, 2):
+                                random_number = random.randint(0, 10)
+                                if random_number == 2 or random_number == 1 or random_number == 3 or random_number == 4:
+                                    print("you got unlucky")
+                                    time.sleep(1)
+                                    quit()
+                            else:
+                                print("you survived")
+                else:
+                    if weapon1 == "s" or weapon1 == "S":
+                        print("you have a 2/10 chance of dying")
+                        time.sleep(3)
+                        for x in range(0, 2):
+                            random_number = random.randint(0, 10)
+                            if random_number == 2 or random_number == 1:
+                                print("you got unlucky")
+                                time.sleep(1)
+                                quit()
+                    else:
+                        if weapon1 == "D" or weapon1 == "d":
+                            print("you have a 3/10 chance of dying")
+                            time.sleep(3)
+                            for x in range(0, 2):
+                                random_number = random.randint(0, 10)
+                                if random_number == 2 or random_number == 1  or random_number == 3:
+                                    print("shoulda bought a sword")
+                                    time.sleep(1)
+                                    quit()
+                            else:
+                                print("you survived")
+                        else:
+                            print("you have a 5/10 chance of dying")
+                            time.sleep(3)
+                            for x in range(0, 2):
+                                random_number = random.randint(0, 10)
+                                if random_number == 2 or random_number == 1 or random_number == 3 or random_number == 4 or random_number == 5:
+                                    print("you shulda bought something")
+                                    time.sleep(1)
+                                    quit()
+                            else:
+                                print("you survived")
+                                d
+    if giantSnake == "R" or  giantSnake == "r":
+        time.sleep(1)
+        print("you got away")
+        time.sleep(1)
+        print("at the end of the tunnel you see some light")
+    else:
+        print("you stand there like a loser")
+else:
+     print("you ignore the cave and carry on walking")
+     time.sleep(3)
+     print("You trip over a rock and die")
+     time.sleep(1)
+     quit()
+time.sleep(1)
+print("you escape")
+time.sleep(1)
+print("there is a dog")
+time.sleep(1)
+print("the dog is rabid")
+time.sleep(1)
+print("it bites and kills you ")
+time.sleep(1)
+print("Lol get shrekt")
+time.sleep(5)
+print("dont worry the game isn't that cruel")
+time.sleep(1)
+carryOn=input("please carry on")
+if carryOn == "ok" or carryOn == "OK" or carryOn == "oK" or carryOn == "Ok" or  carryOn == "i will" or carryOn == "I Will" or carryOn == "I WILL":
+    moreGold=input("do you want more gold")
+    if moreGold == "Y" or moreGold == "y" or moreGold == "YES" or moreGold == "yes" or moreGold == "YeS" or moreGold == "YeS":
+        print("no")
+    else:
+        print("you take it anyway")
+        gold = gold+30
+        time.sleep(1)
+        print("You have ",gold, " gold")
+else:
+    print("Rude")
+    time.sleep(1)
+    quit()
+
