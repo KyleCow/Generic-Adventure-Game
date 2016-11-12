@@ -504,4 +504,45 @@ else:
     print("Rude")
     time.sleep(1)
     quit()
-
+moreGold1=input("do you want more gold")
+if moreGold1 == "Y" or moreGold1 == "y" or moreGold1 == "YES" or moreGold1 == "yes" or moreGold1 == "YeS" or moreGold1 == "YeS":
+    print("no")
+else:
+    print("so humble")
+time.sleep(1)
+print("You return to the kingdom")
+time.sleep(1)
+print("you go to the store")
+time.sleep(1)
+firstBuy=input("Buy All access key press K[600g], Buy ONE Use key press S[100g], Buy CROWBAR press C[700g] ")
+if firstBuy == "K" or firstBuy == "k":
+        gold = gold - 600
+        if gold < 0:
+            print("you cant afford it")
+            gold = gold + 600
+else:
+    if firstBuy == "S" or firstBuy == "s":
+        gold = gold - 100
+        if gold < 0:
+            print("you cant afford it")
+            gold = gold + 100
+    else:
+        if firstBuy == "C" or firstBuy == "c":
+            gold = gold - 700
+            if gold < 0:
+                print("you cant afford it")
+                gold = gold + 700
+time.sleep(1)
+print("you go back to the king")
+time.sleep(1)
+print("King: oh you're homeless ")
+time.sleep(1)
+print("Shiiiiii")
+time.sleep(1)
+print("well you can live in the basement")
+time.sleep(1)
+print("Happy?")
+time.sleep(1)
+print("K Bye")
+time.sleep(5)
+print("good morning")
